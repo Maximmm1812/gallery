@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Photo from "./Photo";
 import Modal from "./Modal";
-import "./PhotoList.css"; // Импортируем стили для PhotoList
+import "./PhotoList.css";
 
 const PhotoList = () => {
   const [photos, setPhotos] = useState([]);

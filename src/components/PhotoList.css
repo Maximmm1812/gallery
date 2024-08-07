@@ -7,7 +7,6 @@
 }
 
 .photo {
-  display: flex;
   width: 100%;
   max-width: 250px;
   cursor: pointer;
@@ -21,6 +20,10 @@
 .photo:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.photo-id {
+  color: white;
 }
 
 .photo img {

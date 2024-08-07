@@ -1,11 +1,12 @@
 import React from "react";
 import PhotoList from "./components/PhotoList";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1 style={{ color: "white" }}>Фото Галерея</h1>
+      <Header />
       <PhotoList />
     </div>
   );
